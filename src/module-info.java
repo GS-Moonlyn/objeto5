@@ -1,2 +1,2 @@
-module objeto5 {
+module Objeto5 {
 }
