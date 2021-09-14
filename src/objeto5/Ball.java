@@ -22,7 +22,7 @@ public class Ball extends Polygon {
 	public static int[] sPolyXArray = {10, 17, 26, 34, 27, 36, 26, 14, 8, 1, 5, 1, 10};
 	public static int[] sPolyYArray = {0, 5, 1, 8, 13, 20, 31, 28, 31, 22, 16, 7, 0};
 
-	public static ArrayList<Ball> balls;
+	static ArrayList<Ball> balls = new ArrayList<Ball>();
 	
 	public Ball(int[] polyXArray, int[] polyYArray, int pointsInPoly, int randomStartXPos, int randomStartYPos) {
 		
@@ -61,8 +61,8 @@ public class Ball extends Polygon {
 			}
 		}
 		
-		int uLeftXpos = super.xpoints[0];
-		int uLeftYpos = super.ypoints[0];
+		int uLeftXPos = super.xpoints[0];
+		int uLeftYPos = super.ypoints[0];
 		
 		if (uLeftXPos < 0 || (uLeftXPos + 25) > width) xDirection = -xDirection;
 		if (uLeftYPos < 0 || (uLeftYPos + 50) > height) yDirection = -yDirection;

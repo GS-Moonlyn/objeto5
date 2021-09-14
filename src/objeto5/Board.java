@@ -72,7 +72,7 @@ class GameDrawingPanel extends JComponent{
 	
 	public GameDrawingPanel() {
 		
-		for(int i = 0; i < 50; i++) {
+		for(int i = 0; i < 10; i++) {
 			
 			int randomStartXPos = (int) (Math.random() * (Board.boardWidth - 40) + 1);
 			int randomStartYPos = (int) (Math.random() * (Board.boardHeight - 40) + 1);
