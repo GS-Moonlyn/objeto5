@@ -1,13 +1,13 @@
 package objeto5;
 
-public class Rectangle {
+public class Boundary {
 
 	private int x;
 	private int y;
 	private int width;
 	private int height;
 	
-	public Rectangle(int x, int y, int width, int height) {
+	public Boundary(int x, int y, int width, int height) {
 		this.setX(x);
 		this.setY(y);
 		this.setWidth(width);

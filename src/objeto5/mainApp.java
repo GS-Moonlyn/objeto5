@@ -8,7 +8,7 @@ public class mainApp {
 	public static void main(String[] args) {
 
         Random rng = new Random();
-		Rectangle boundary = new Rectangle(0, 0, windowWidth, windowHeight);
+        Boundary boundary = new Boundary(0, 0, windowWidth, windowHeight);
 		Quadtree qt = new Quadtree(boundary, 4, 3);
 		for (int i = 0; i < 5; i++) {
 			// Point p = new Point(rng.nextInt(401), rng.nextInt(401));
